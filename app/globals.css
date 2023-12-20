@@ -54,11 +54,17 @@ gap: 20px;
 
 justify-content: space-around;
 }
+.menu_image{
+  display: none;
+}
 
 @media screen and (max-width: 1024px) {
 .nav {
 display: flex;
 position: relative;
+}
+.menu_image{
+display: block;
 }
 .menu_img {
 display: block;
