@@ -9,7 +9,7 @@ const lato = Lato({
 })
 export default function Home() {
   return (
-    <main className={`${lato.className} py-20  relative px-4 sm:px16  mx-auto bg-[#000] h-[2550px] xs:h-[2400px] laptop:h-[1700px] w-full`} >
+    <main className={`${lato.className} py-20  relative   mx-auto bg-[#000] h-[2550px] xs:h-[2400px] laptop:h-[1700px] w-full`} >
       <div className="absolute  w-full h-full  main_bg"></div>
       <div className="absolute  top-0 py-20   px-4 sm:px16 z-50 w-full h-[100%] left-0 ">
       <section  >

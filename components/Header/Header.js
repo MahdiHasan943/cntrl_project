@@ -22,7 +22,7 @@ const Header = () => {
       
         {
           navlinks.map(nav => (
-            <li key={nav?.id}><button className="text-white border-2 border-[#3185FF]  hover:bg-[#3185FF]  duration-200 delay-75 ease-linear  py-2 rounded-full px-6">{nav.title}</button></li>
+            <li key={nav?.id}><button className="text-white border-2 border-[#3185FF]  hover:bg-gradient-to-l from-[#2665EB] to-[#3185FF]   duration-200 delay-75 ease-linear  py-2 rounded-full px-6">{nav.title}</button></li>
         ))
         }
     </React.Fragment>

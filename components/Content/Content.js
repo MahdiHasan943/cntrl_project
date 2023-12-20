@@ -33,16 +33,16 @@ const Content = () => {
                           <p className='text-[#fff] text-[16px]'>Take control of your AI today</p>
                       </div>
                   </div>
-                  <div className="w-[90%] py-6 mx-auto">
+                  <div className="w-[95%] tablet:w-[90%] py-6 mx-auto">
                   
                   <div className="w-full py-4 grid grid-cols-2 gap-4  mx-auto">
-                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold placeholder:text-[#2665EB] rounded-full' placeholder='FIRST NAME' type="text" />
-                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='LAST NAME' type="text" />
+                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-semibold placeholder:text-[#2665EB] rounded-full' placeholder='FIRST NAME' type="text" />
+                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-semibold  placeholder:text-[#2665EB] rounded-full' placeholder='LAST NAME' type="text" />
                       </div>
-                      <input className='px-6 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='E-MAIL' type="text" />
+                      <input className='px-6 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-semibold  placeholder:text-[#2665EB] rounded-full' placeholder='E-MAIL' type="text" />
 
-                      <input className='px-6 my-4 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='PASSWORD' type="text" />
-                      <button className="text-white border-2 border-[#fff]   duration-200 delay-100 ease-linear  px-6 py-5 rounded-full  w-full relative"> GET STARTED TODAY <Image src={'/images/rightArrow.png'} alt="arrow-icon" width={20} height={20} className="absolute top-[15px] right-[20px]"/></button>    
+                      <input className='px-6 my-4 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-semibold  placeholder:text-[#2665EB] rounded-full' placeholder='PASSWORD' type="text" />
+                      <button className="text-white border-2 border-[#fff]   duration-200 delay-100 ease-linear  px-6 py-5 rounded-full font-semibold  w-full relative"> GET STARTED TODAY <Image src={'/images/rightArrow.png'} alt="arrow-icon" width={20} height={20} className="absolute top-[22px] right-[60px]"/></button>    
 
                  
                   </div>     
