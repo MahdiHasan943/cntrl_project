@@ -29,16 +29,14 @@ module.exports = {
     //   grayDark : "#5E5B56" ,
     //   ...colors 
     //  }  ,
-     screens: {
+    screens: {
+       "smallest":"375px",
       "xs":"457px",
       'tablet': '640px',
-      
-      'laptop': '900px',
-      
+      'laptop': '913px',
       'desktop': '1280px',
-       'largeMonitor': '1500px',
-      
-        'largestMonitor':'1900px'
+      'largeMonitor': '1500px',
+      'largestMonitor':'1900px'
       
     } 
   },
