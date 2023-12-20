@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Lato } from 'next/font/google'
+import Hero from '@/components/Hero/Hero'
 const lato = Lato({
   weight: '400',
   subsets: ['latin'],
@@ -7,8 +8,16 @@ const lato = Lato({
 })
 export default function Home() {
   return (
-    <main className='py-20 h-full '>
-      <h3 className={`${lato.className} text-primary text-[50px]`}>hello</h3>
- </main>
+    <main className={`${lato.className} py-20 px-4 sm:px16 mx-auto h-full w-full`} >
+      <section>
+              {/* hero  section*/}
+        <Hero />
+      </section>
+      {/* section for paragraps and form */}
+      <section>
+        
+ </section>
+      
+    </main>
   )
 }
