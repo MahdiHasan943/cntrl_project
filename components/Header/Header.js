@@ -31,8 +31,8 @@ const Header = () => {
   return (
     <nav  className={`sm:px-10 xl:px-16 px-4 py-5 shadow-none w-[100vw] bg-[#0D0D0D] nav`}
     >
-      <div className={`flex w-full items-center   justify-between largeMonitor:justify-around `}>
-        <div className="flex overflow-hidden  items-center">
+      <div className={`flex w-full items-center   justify-between largeMonitor:justify-between largeMonitor:px-20 largestMonitor:px-[150px] `}>
+        <div className="flex justify-start  overflow-hidden  items-center">
           <Link href={'/'}><Image src={'/images/CntrlLogo.png'} width={100} height={100} alt="cntrl_logo" /></Link>
         </div>
         <ul className={`${active} `}>

@@ -36,7 +36,9 @@ module.exports = {
       'laptop': '900px',
       
       'desktop': '1280px',
-      'largeMonitor' : '1500px'
+       'largeMonitor': '1500px',
+      
+        'largestMonitor':'1900px'
       
     } 
   },
