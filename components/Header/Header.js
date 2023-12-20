@@ -40,6 +40,7 @@ const Header = () => {
           {menu}
         </ul>
       </div>
+      {/* for hamburger menu icon */}
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>

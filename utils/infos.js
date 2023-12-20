@@ -1,25 +1,12 @@
+// for headers nave  items
 export const navlinks = [
     {
          "id":1,
         "title": "GET STARTED",
          "href":"button"
     }
-    // {
-    //     "title": "Home",
-    //     "ref": '/',
-    // }
-    // ,
-    // {
-    //     "title": "Menu",
-    //     "ref":"Menu",
-    // }
-    // ,
-    // {
-    //     "title": "Blogs",
-    //     "ref":"Blog"
-
 ]
-
+// for content
 export const contents = [
     {
         "id":1,
