@@ -16,19 +16,19 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
-    colors : {
-      primaryDark :  "#03386E" ,
-      primary : "#0956A3" ,
-      secondary: "#FFA000" ,
-      secondaryDark : "#B87504" ,
-      whiteYellwed : "#ededbe" ,
-      white : "#fff"  ,
-      black : "#232220" ,
-      grayLight : "#F5F5F5" ,
-      pageBg  : "#9ae7f3" ,  
-      grayDark : "#5E5B56" ,
-      ...colors 
-     }  ,
+    // colors : {
+    //   primaryDark :  "#03386E" ,
+    //   primary : "#0956A3" ,
+    //   secondary: "#FFA000" ,
+    //   secondaryDark : "#B87504" ,
+    //   whiteYellwed : "#ededbe" ,
+    //   white : "#fff"  ,
+    //   black : "#232220" ,
+    //   grayLight : "#F5F5F5" ,
+    //   pageBg  : "#9ae7f3" ,  
+    //   grayDark : "#5E5B56" ,
+    //   ...colors 
+    //  }  ,
      screens: {
       
       'tablet': '640px',
