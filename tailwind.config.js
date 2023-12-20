@@ -30,7 +30,7 @@ module.exports = {
     //   ...colors 
     //  }  ,
      screens: {
-      
+      "xs":"457px",
       'tablet': '640px',
       
       'laptop': '900px',

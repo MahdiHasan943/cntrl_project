@@ -4,7 +4,7 @@ import React from 'react'
 
 const Content = () => {
   return (
-      <div className='grid grid-cols-1 py-20 laptop:grid-cols-2 w-full justify-center  '>
+      <div className='grid grid-cols-1  py-20 laptop:grid-cols-2 w-full justify-center  '>
           
           <div className="">
               {
@@ -23,8 +23,9 @@ const Content = () => {
               }
           </div>
           {/* contact form */}
-          <div className="">
-          <form action="" className='bg-[#3185FF] laptop:w-[500px]  h-[500px] rounded-2xl py-6 px-4 '>
+          {/* <div style={{ overflowY: 'auto' }} className="  bg-[red] "> */}
+            
+          <form action="" className='bg-[#3185FF] sticky top-[100px]  duration-200 delay-75 ease-linear mt-20 laptop:mt-0  laptop:w-[500px]  h-[500px] rounded-2xl py-6 px-4 '>
                   <div className="flex gap-4 justify-center items-center w-full ">
                       <Image src={'/images/cntrlWhiteLogo.png'} width={60} height={60} alt={'white_logo'} />
                       <div className="">
@@ -48,7 +49,7 @@ const Content = () => {
              
               
              </form>
-         </div>
+         {/* </div> */}
 
     </div>
   )
