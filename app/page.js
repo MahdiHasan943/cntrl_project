@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Lato } from 'next/font/google'
 import Hero from '@/components/Hero/Hero'
+import Content from '@/components/Content/Content'
 const lato = Lato({
   weight: '400',
   subsets: ['latin'],
@@ -15,7 +16,7 @@ export default function Home() {
       </section>
       {/* section for paragraps and form */}
       <section>
-        
+        <Content/>
  </section>
       
     </main>

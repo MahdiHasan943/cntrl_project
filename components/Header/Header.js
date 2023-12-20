@@ -22,14 +22,14 @@ const Header = () => {
       
         {
           navlinks.map(nav => (
-            <li><button className="text-white border-2 border-[#3185FF]  py-2 rounded-full px-6">{nav.title}</button></li>
+            <li key={nav?.id}><button className="text-white border-2 border-[#3185FF]  py-2 rounded-full px-6">{nav.title}</button></li>
         ))
         }
     </React.Fragment>
   );
 
   return (
-    <nav  className={`sm:px-10 xl:px-16 px-4 py-5 shadow-none w-[100vw] nav`}
+    <nav  className={`sm:px-10 xl:px-16 px-4 py-5 shadow-none w-[100vw] bg-[black] nav`}
     >
       <div className={`flex w-full items-center   justify-between largeMonitor:justify-around `}>
         <div className="flex overflow-hidden  items-center">
