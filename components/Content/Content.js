@@ -9,8 +9,11 @@ const Content = () => {
           <div className="">
               {
                   contents.map(content => (
-                      <div className="flex justify-center items-start gap-10 py-4">
-                          <Image src={content.img} width={40} height={5} alt={content.title} />
+                      <div className="flex justify-center items-start gap-4 tablet:gap-10 py-4">
+                          <div className="min-w-[50px]">
+                          <Image src={content.img} width={40} height={10} alt={content.title} />
+
+                          </div>
                           <div className="">
                               <h2 className='text-[28px] font-bold text-[#fff]'>{content.title}</h2>
                               <p className='text-white overflow-hidden tablet:w-[500px]'>{content.des}</p>
