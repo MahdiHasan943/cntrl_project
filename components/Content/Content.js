@@ -11,7 +11,7 @@ const Content = () => {
                   contents.map(content => (
                       <div className="flex justify-center items-start gap-4 tablet:gap-10 py-4">
                           <div className="min-w-[50px]">
-                          <Image src={content.img} width={40} height={10} alt={content.title} />
+                          <Image src={content.img} width={22} height={10} alt={content.title} />
 
                           </div>
                           <div className="">
