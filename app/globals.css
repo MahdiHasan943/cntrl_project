@@ -158,6 +158,9 @@ z-index: 10000000 !important;
 }
 
   /* style for main content */
-
+  .main_bg {
+    background-image: linear-gradient(180deg, #0d0d0f 0%, #3185ff 46%, #000000 100%);
+    opacity: 6%; /* This sets the opacity to 60% */
+  }
 
     /* styles for footer */

@@ -23,9 +23,14 @@ const Content = () => {
               }
           </div>
           {/* contact form */}
-          <form action="">
-              <p className='text-white'>kddkkd</p>
-          </form>
+          <div className="">
+          <form action="" className='bg-[#3185FF] laptop:w-[500px] h-[500px] rounded-lg py-4 px-4 '>
+                  <div className="">
+                      <Image></Image>
+             </div>
+              
+             </form>
+         </div>
 
     </div>
   )
