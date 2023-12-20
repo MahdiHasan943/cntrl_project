@@ -24,10 +24,28 @@ const Content = () => {
           </div>
           {/* contact form */}
           <div className="">
-          <form action="" className='bg-[#3185FF] laptop:w-[500px] h-[500px] rounded-lg py-4 px-4 '>
-                  <div className="">
-                      <Image></Image>
-             </div>
+          <form action="" className='bg-[#3185FF] laptop:w-[500px]  h-[500px] rounded-2xl py-6 px-4 '>
+                  <div className="flex gap-4 justify-center items-center w-full ">
+                      <Image src={'/images/cntrlWhiteLogo.png'} width={60} height={60} alt={'white_logo'} />
+                      <div className="">
+                          <h4 className='text-[#fff] font-bold leading-[40px] text-[28px]'>TRY IT FREE</h4>
+                          <p className='text-[#fff] text-[16px]'>Take control of your AI today</p>
+                      </div>
+                  </div>
+                  <div className="w-[90%] py-6 mx-auto">
+                  
+                  <div className="w-full py-4 grid grid-cols-2 gap-4  mx-auto">
+                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold placeholder:text-[#2665EB] rounded-full' placeholder='FIRST NAME' type="text" />
+                      <input className='px-6 py-6 text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='LAST NAME' type="text" />
+                      </div>
+                      <input className='px-6 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='E-MAIL' type="text" />
+
+                      <input className='px-6 my-4 py-6 w-full text-[#000] border-0 focus:border-0 outline-none focus:outline-none focus:shadow-outline placeholder:font-bold  placeholder:text-[#2665EB] rounded-full' placeholder='PASSWORD' type="text" />
+                      <button className="text-white border-2 border-[#fff]   duration-200 delay-100 ease-linear  px-6 py-5 rounded-full  w-full relative"> GET STARTED TODAY <Image src={'/images/rightArrow.png'} alt="arrow-icon" width={20} height={20} className="absolute top-[15px] right-[20px]"/></button>    
+
+                 
+                  </div>     
+             
               
              </form>
          </div>
