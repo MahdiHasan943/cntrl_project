@@ -39,7 +39,7 @@ const Content = () => {
       {/* contact form */}
       <form
         action=""
-        className="bg-[#3185FF] sticky top-[0]  duration-200 delay-75 ease-linear mt-20 laptop:mt-0  laptop:w-[500px]  h-[700px] rounded-2xl py-6 px-4 "
+        className="bg-[#3185FF] sticky top-[100px]  duration-200 delay-75 ease-linear mt-20 laptop:mt-0  laptop:w-[500px]  h-[700px] rounded-2xl py-6 px-4 "
       >
         <div className="flex gap-4 justify-center items-center w-full ">
           <Image
