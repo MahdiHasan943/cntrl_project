@@ -1,15 +1,22 @@
+'use client'
 import { contents } from '@/utils/infos'
 import Image from 'next/image'
 import React from 'react'
-
+import { motion } from 'framer-motion'
+import { slideIn } from '@/utils/motion'
 const Content = () => {
   return (
       <div className='grid grid-cols-1  py-20 laptop:grid-cols-2 w-full justify-center  '>
           {/* contents */}
           <div className="">
               {
-                  contents.map(content => (
-                      <div className="flex justify-center items-start gap-4 tablet:gap-10 py-4">
+                  contents.map((content,index) => (
+                      <motion.div
+                          key={index}
+                          variants={slideIn("left", "spring", index * 0.2, 1.5)} // Adjust parameters as needed
+                          initial="hidden"
+                          whileInView="show"
+                          className="flex justify-center items-start gap-4 tablet:gap-10 py-4">
                           <div className="min-w-[50px]">
                           <Image src={content.img} width={22} height={10} alt={content.title} />
 
@@ -18,7 +25,7 @@ const Content = () => {
                               <h2 className='text-[28px] font-bold text-[#fff]'>{content.title}</h2>
                               <p className='text-white overflow-hidden tablet:w-[500px]'>{content.des}</p>
                           </div>
-                  </div>
+                  </motion.div>
               ))    
               }
           </div>

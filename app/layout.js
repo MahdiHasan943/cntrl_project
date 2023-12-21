@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="scroll-smooth bg-[#000]">
+      <body className="scroll-smooth ">
         {/* header */}
         <Header />
         {/* main content */}
